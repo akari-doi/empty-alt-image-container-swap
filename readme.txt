@@ -5,7 +5,7 @@ Author: akari_doi
 Tags: images, accessibility, alt text, figure, div
 Requires at least: 5.0
 Tested up to: 6.5.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 

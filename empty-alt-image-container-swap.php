@@ -2,7 +2,7 @@
 /*
 Plugin Name: Empty Alt Image Container Swap
 Description: For image blocks with an empty alt attribute, this plugin replaces the figure tags wrapping the image with div tags, and vice versa.
-Version: 1.0.2
+Version: 1.0.3
 Author: Akari Doi
 Text Domain: empty-alt-image-container-swap
 Stable Tag: 1.0
