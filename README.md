@@ -1,0 +1,1 @@
+# empty-alt-image-container-swap
