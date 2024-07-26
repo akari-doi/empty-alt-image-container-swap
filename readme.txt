@@ -1,6 +1,7 @@
 === Empty Alt Image Container Swap ===
 
-Contributors: Akari Doi
+Contributors: akari_doi
+Author: akari_doi
 Tags: images, accessibility, alt text, figure, div
 Requires at least: 5.0
 Tested up to: 6.5.3
@@ -8,13 +9,12 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-== Short Description ==
 This plugin improves accessibility by converting figure tags to div tags for image blocks with missing alt text.
 
 == Description ==
-This plugin enhances the accessibility of image blocks in the WordPress block editor by converting the wrapping <figure> tags to <div> tags when the image has an empty alt attribute.
-The <figure> element is typically used to provide a description of its content, especially for images. However, when an image lacks alternative text (alt text) that describes its content, wrapping it in a <figure> element can be semantically incorrect because the figure lacks a description of its content.
-By replacing <figure> tags with <div> tags for images missing alt text, this plugin ensures proper HTML semantics. <div> elements are generic containers without implicit meaning, making them suitable for presenting images without associated descriptions.
+This plugin enhances the accessibility of image blocks in the WordPress block editor by converting the wrapping `<figure>` tags to `<div>` tags when the image has an empty alt attribute.
+The `<figure>` element is typically used to provide a description of its content, especially for images. However, when an image lacks alternative text (alt text) that describes its content, wrapping it in a `<figure>` element can be semantically incorrect because the figure lacks a description of its content.
+By replacing `<figure>` tags with `<div>` tags for images missing alt text, this plugin ensures proper HTML semantics. `<div>` elements are generic containers without implicit meaning, making them suitable for presenting images without associated descriptions.
 In summary, this lightweight plugin dynamically adjusts the markup of image blocks based on the presence of alt text, thereby enhancing their accessibility.
 
 == Installation ==
@@ -37,11 +37,11 @@ There are two ways to install the "Empty Alt Image Container Swap" plugin:
     4. Find the plugin in the results and click "Install Now".
     5. Once installed, click "Activate Plugin" to activate it.
 
-After activating the plugin through either method, it will automatically convert <figure> tags to <div> tags for image blocks with missing alt text when using the block editor. No further configuration is required.
-For best accessibility practices, it's recommended to provide descriptive alt text for all images. However, if you forget or choose not to add alt text for certain images, this plugin ensures proper markup by using <div> containers instead of <figure>.
+After activating the plugin through either method, it will automatically convert `<figure>` tags to `<div>` tags for image blocks with missing alt text when using the block editor. No further configuration is required.
+For best accessibility practices, it's recommended to provide descriptive alt text for all images. However, if you forget or choose not to add alt text for certain images, this plugin ensures proper markup by using `<div>` containers instead of `<figure>`.
 
 == Frequently Asked Questions ==
 
 = What happens if I deactivate the plugin? =
 
-When you deactivate the plugin, image blocks that were using <div> tags due to missing alt text will not automatically revert to using <figure> tags. You may need to manually update these image blocks if necessary to maintain your preferred markup.
+When you deactivate the plugin, image blocks that were using `<div>` tags due to missing alt text will not automatically revert to using `<figure>` tags. You may need to manually update these image blocks if necessary to maintain your preferred markup.
