@@ -2,10 +2,10 @@
 /*
 Plugin Name: Empty Alt Image Container Swap
 Description: For image blocks with an empty alt attribute, this plugin replaces the figure tags wrapping the image with div tags, and vice versa. It also hides figcaption on the frontend for images with empty alt text.
-Version: 1.1.0
+Version: 1.1.1
 Author: Akari Doi
 Text Domain: empty-alt-image-container-swap
-Stable Tag: 1.1.0
+Stable Tag: 1.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -18,9 +18,10 @@ function eaics_enqueue_script() {
         'eaics-custom-image-block',
         plugin_dir_url(__FILE__) . 'js/custom-image-block.js',
         array('wp-blocks', 'wp-i18n', 'wp-element'),
-        '1.1.0',
+        '1.1.1',
         true
     );
+    wp_set_script_translations('eaics-custom-image-block', 'empty-alt-image-container-swap');
 }
 add_action('enqueue_block_editor_assets', 'eaics_enqueue_script');
 

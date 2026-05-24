@@ -4,8 +4,8 @@ Contributors: akari_doi
 Author: akari_doi
 Tags: images, accessibility, alt text, figure, div
 Requires at least: 5.0
-Tested up to: 6.6.1
-Stable tag: 1.1.0
+Tested up to: 7.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,10 @@ Yes, you can still add captions to images with empty alt text in the editor. How
 No, this plugin does not make any changes to your database or stored content. It works dynamically when pages are rendered, which means your original content remains intact.
 
 == Changelog ==
+
+= 1.1.1 =
+* Fixed JavaScript translations not working by adding wp_set_script_translations()
+* Tested up to WordPress 7.0
 
 = 1.1.0 =
 * Added feature to hide captions for images with empty alt text on the frontend
